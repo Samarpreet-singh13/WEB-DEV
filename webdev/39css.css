@@ -1,0 +1,58 @@
+.mainbox {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.box {
+    border: 3px solid red;
+    height: 50px;
+    width: 50px;
+}
+
+.box7 {
+    grid-row: 3/3;
+    grid-column: 3/3;
+}
+
+.mainbox2 {
+    border: 3px solid black;
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+        "sidel article sider"
+        "footer footer footer";
+    gap: 10px;
+}
+
+.boxy {
+    border: 3px solid rgb(0, 183, 255);
+    height: 50px;
+    /* width: 50px; */
+}
+
+.box1 {
+    grid-area: nav;
+    background-color: rgb(176, 214, 214);
+}
+
+.box2 {
+    grid-area: sidel;
+    background-color: bisque;
+}
+
+.box3 {
+    grid-area: article;
+    background-color: #febbbb;
+}
+
+.box4 {
+    grid-area: sider;
+    background-color: blanchedalmond;
+}
+
+.box5 {
+    grid-area: footer;
+    background-color: honeydew;
+}

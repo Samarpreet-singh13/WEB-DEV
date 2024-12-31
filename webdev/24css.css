@@ -1,0 +1,15 @@
+.boxy{
+    margin: 40px;
+    border: 4px solid royalblue;
+    /* box-sizing: border-box; */
+    height: 40px;
+    padding: 6px;
+    text-shadow: 5px 5px 5px rgb(21, 72, 182);
+    outline: 4px solid black;
+}
+.box{
+    margin: 40px;
+    border: 4px solid rgb(157, 117, 212);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rebeccapurple;
+}
